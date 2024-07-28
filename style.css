@@ -4,6 +4,12 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: "Norse";
+    src: url(norse-bold-webfont.woff2) format(woff2);
+    font-weight: bold;
+}
+
 body {
     display: flex;
 }
@@ -25,4 +31,25 @@ body {
 
 .attribution > a {
     color: inherit;
+}
+
+.logo-bg {
+    height: 17%;
+    background-color: rgba(0 0 0 / 0.4);
+    padding: 10px 0;
+    text-align: center;
+    position: relative;
+    top: 20%;
+}
+
+.logo-bg > img {
+    height: 100%;
+    vertical-align: middle;
+}
+
+.logo-bg > span {
+    font-family: Norse;
+    font-weight: bold;
+    vertical-align: middle;
+    font-size: 5em;
 }
