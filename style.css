@@ -122,3 +122,15 @@ button {
     cursor: pointer;
     box-shadow: 0 4px 10px rgba(0 0 0 / 0.2);
 }
+
+.form-cont > p {
+    margin-top: 2.3rem;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form-cont > p > a {
+    font-weight: bold;
+    color: hsl(32, 19%, 29%);
+    text-decoration: none;
+}
