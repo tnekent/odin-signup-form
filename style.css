@@ -111,7 +111,8 @@ form > h1 {
 }
 
 .form-field > input:focus {
-    outline: 1px solid blue;
+    border-color: blue;
+    outline: none;
     box-shadow: 2px 2px 7px rgba(0 0 0 / 0.3);
 }
 
