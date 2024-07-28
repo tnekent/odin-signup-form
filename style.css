@@ -144,3 +144,15 @@ button {
 input[type=password]:invalid {
     border-color: red;
 }
+
+input[type=password] + span::before {
+    content: "* Passwords do not match";
+    display: block;
+    color: red;
+    visibility: hidden;
+    font-size: 1.2rem;
+}
+
+input[type=password]:invalid + span::before {
+    visibility: visible;
+}
