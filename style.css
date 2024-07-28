@@ -140,3 +140,7 @@ button {
     color: hsl(32, 19%, 29%);
     text-decoration: none;
 }
+
+input[type=password]:invalid {
+    border-color: red;
+}
